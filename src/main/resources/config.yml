@@ -1,0 +1,28 @@
+messages:
+  plugin-enabled: "CustomJoinMessages a été activé !"
+  plugin-disabled: "CustomJoinMessages a été désactivé !"
+
+  no-permission: "&c n'avez pas la permission d'exécuter cette commande."
+  no-found-message: "&cMessage introuvable !"
+
+  only-players: "&cSeuls les joueurs peuvent exécuter cette commande."
+
+
+
+join-messages:
+  tag1:
+    display-name: "&aBienvenue!"
+    lore:
+      - "&7Ce message s'affiche"
+      - "&7quand un joueur rejoint."
+    permission: "customjoinmessages.tag1"
+    join-message: "&a[PLAYER] a rejoint le serveur ! 🎉"
+
+  tag2:
+    display-name: "&bHello!"
+    lore:
+      - "&7Un autre message"
+      - "&7personnalisé."
+    permission: "customjoinmessages.tag2"
+    join-message: "&b[PLAYER] est là ! 👋"
+
