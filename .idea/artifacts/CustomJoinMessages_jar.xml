@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CustomJoinMessages:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CustomJoinMessages_jar</output-path>
+    <root id="archive" name="CustomJoinMessages.jar">
+      <element id="module-output" name="CustomJoinMessages" />
+    </root>
+  </artifact>
+</component>
