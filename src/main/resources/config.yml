@@ -5,7 +5,17 @@ messages:
   no-permission: "&c n'avez pas la permission d'exécuter cette commande."
   no-found-message: "&cMessage introuvable !"
 
+  unknown-command: "&cCommande inconnue ! Essaie /customjoinmessages add <tag> <display-name> <join-message>"
+
+  invalid-arguments: "&cArguments invalides !"
+
   only-players: "&cSeuls les joueurs peuvent exécuter cette commande."
+
+  tag-not-found: "&cTag introuvable !"
+
+  tag-already-exists: "&cCe tag existe déjà !"
+
+  tag-created: "&aTag créé avec succès !"
 
 
 

@@ -1,6 +1,8 @@
 package fr.ixsou.customJoinmessages;
 
+import fr.ixsou.customJoinmessages.commands.CustomJoinMessagesAdmin;
 import fr.ixsou.customJoinmessages.commands.JoinMessagesCommand;
+import fr.ixsou.customJoinmessages.tabcompleter.CustomJoinMessagesTabCompleter;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.ConfigurationSection;
@@ -19,6 +21,8 @@ public class CustomJoinMessages extends JavaPlugin implements Listener {
         Bukkit.getPluginManager().registerEvents(this, this);
 
         getCommand("joinmessages").setExecutor(new JoinMessagesCommand(this));
+        getCommand("customjoinmessages").setExecutor(new CustomJoinMessagesAdmin(this));
+        getCommand("customjoinmessages").setTabCompleter(new CustomJoinMessagesTabCompleter(this));
 
         getLogger().info(getMessage("plugin-enabled"));
     }
